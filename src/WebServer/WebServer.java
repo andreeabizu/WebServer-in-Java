@@ -6,7 +6,7 @@ public class WebServer {
     public  ServerSocket server;
     private int port;
 
-    public void setPort(int port){
+    public void setPort(int port){ //setam portul si pornim serverul pe portul respectiv
         try {
             if(server!=null)//daca exista un alt server, il oprim
                 server.close();
@@ -20,7 +20,7 @@ public class WebServer {
 
     public void startServer() throws IOException {
         WebClientHandler.setStopped(true);//serverul e in starea stopped
-        while (true) {//accepta conexiuni
+        while (true) {//accepta conexiuni, un thread pentru fiecare client
             Socket socket = server.accept();
             (new Thread(new WebClientHandler(socket))).start();
         }
@@ -29,14 +29,14 @@ public class WebServer {
         this.server = s;
       }
 
-    public void wakeUp()
+    public void wakeUp()//trecem serverul in starea running
     {
         WebClientHandler.setStopped(false);
-    } //trecem serverul in starea running
+    }
 
-    public void maintenance(){
+    public void maintenance(){//setam serverului starea maintenance
         WebClientHandler.setMaintenance(true);
-    } //setam serverului starea maintenance
+    }
 
 
     public void stop(){ //oprim serverul
@@ -67,7 +67,7 @@ public class WebServer {
     }
 
 
-    public static class WebClientHandler implements Runnable{
+    public static class WebClientHandler implements Runnable{//clasa folosita pentru a raspunde request-urilor
 
         private static final String DEFAULT_FILE = "index.html";
         private static final String FILE_NOT_FOUND = "404.html";
@@ -88,7 +88,7 @@ public class WebServer {
             return new BufferedReader(new InputStreamReader(mySocket.getInputStream()));
         }
 
-        public void sendHeader(String message) throws IOException {
+        public void sendHeader(String message) throws IOException {//trimite header catre client
             PrintWriter out = new PrintWriter(mySocket.getOutputStream());
             out.println(message);
             out.println();
