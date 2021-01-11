@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.box {
+  background-color:  grey;
+  margin-top: 100px;
+  margin-left: 500px;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.four1 {
+  color: black;
+  left: 15%;
+  top: 15%;
+  font-family: 'Serif', sans-serif;
+  font-size: 10rem;
+  position:absolute;
+ }
+
+.four2 {
+  color: black;
+  left: 69%;
+  top: 15%;
+  font-family: 'Serif', sans-serif;
+  font-size: 10rem;
+  position:absolute;
+}
+
+.message {
+   text-align: center;
+   font-family: 'Serif',sans-serif;
+   font-size: 1.6rem;
+   position:absolute;
+   left: 15%;
+   top: 55%;
+   width: 75%;
+}
+
+.far {
+  color: black;
+  top: 19%;
+  left: 37%;
+  position: absolute;
+  font-size: 8.5rem;
+}

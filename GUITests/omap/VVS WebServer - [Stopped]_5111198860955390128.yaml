@@ -1,0 +1,268 @@
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Start Server}
+    - {method: equals, name: type, value: JButton}
+    created: 1607944849833
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: Start Server}
+    - {name: tagName, value: button}
+    - {name: indexOfType, value: '0'}
+    - {name: precedingLabel, value: not running}
+    - {name: component.class.name, value: javax.swing.JButton}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=280,y=61]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: Start Server}
+    - {name: actionCommand, value: Start Server}
+    - {name: type, value: JButton}
+    - {name: buttonText, value: Start Server}
+    - {name: accessibleName, value: Start Server}
+    - {name: size, value: '[width=190,height=26]'}
+    modified: 0
+    name: Start Server
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Stop Server}
+    - {method: equals, name: type, value: JButton}
+    created: 1607944859631
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: Stop Server}
+    - {name: tagName, value: button}
+    - {name: indexOfType, value: '0'}
+    - {name: precedingLabel, value: 0.0.0.0/0.0.0.0}
+    - {name: component.class.name, value: javax.swing.JButton}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=280,y=61]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: Stop Server}
+    - {name: actionCommand, value: Stop Server}
+    - {name: type, value: JButton}
+    - {name: buttonText, value: Stop Server}
+    - {name: accessibleName, value: Stop Server}
+    - {name: size, value: '[width=190,height=26]'}
+    modified: 0
+    name: Stop Server
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: name, value: frame0}
+    - {method: equals, name: type, value: gui.GUI}
+    created: 1607944980382
+    generalProperties:
+    - {name: name, value: frame0}
+    - {name: accessibleContext.accessibleName, value: 'VVS WebServer - [Running]'}
+    - {name: tagName, value: frame}
+    - {name: indexOfType, value: '0'}
+    - {name: component.class.name, value: gui.GUI}
+    - {name: instanceOf, value: javax.swing.JFrame}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=0,y=0]'}
+    - {name: enabled, value: 'true'}
+    - {name: type, value: gui.GUI}
+    - {name: oMapClassName, value: gui.GUI}
+    - {name: title, value: 'VVS WebServer - [Running]'}
+    - {name: accessibleName, value: 'VVS WebServer - [Running]'}
+    - {name: size, value: '[width=600,height=300]'}
+    modified: 0
+    name: VVS WebServer - [Running]
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JCheckBox}
+    - {method: equals, name: fieldName, value: checkBox}
+    created: 1607945010949
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: Switch to maintenance mode}
+    - {name: tagName, value: check-box}
+    - {name: indexOfType, value: '0'}
+    - {name: precedingLabel, value: '8080'}
+    - {name: component.class.name, value: javax.swing.JCheckBox}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: instanceOf, value: javax.swing.JCheckBox}
+    - {name: position, value: '[x=357,y=400]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: Switch to maintenance mode}
+    - {name: actionCommand, value: Switch to maintenance mode}
+    - {name: type, value: JCheckBox}
+    - {name: buttonText, value: Switch to maintenance mode}
+    - {name: fieldName, value: checkBox}
+    - {name: accessibleName, value: Switch to maintenance mode}
+    - {name: size, value: '[width=190,height=26]'}
+    modified: 0
+    name: Switch to maintenance mode
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JTextField}
+    - {method: equals, name: fieldName, value: portConfig}
+    created: 1607945114526
+    generalProperties:
+    - {name: tagName, value: text-field}
+    - {name: indexOfType, value: '0'}
+    - {name: precedingLabel, value: Server listening on port}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: component.class.name, value: javax.swing.JTextField}
+    - {name: instanceOf, value: javax.swing.JTextField}
+    - {name: position, value: '[x=291,y=657]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: ll}
+    - {name: type, value: JTextField}
+    - {name: fieldName, value: portConfig}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: Server listening on port
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: accessibleName, value: It is not a number}
+    - {method: equals, name: type, value: JLabel}
+    created: 1607945129895
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: It is not a number}
+    - {name: tagName, value: label}
+    - {name: labelText, value: 'lbl:It is not a number'}
+    - {name: indexOfType, value: '7'}
+    - {name: component.class.name, value: javax.swing.JLabel}
+    - {name: instanceOf, value: javax.swing.JLabel}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=436,y=657]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: It is not a number}
+    - {name: type, value: JLabel}
+    - {name: accessibleName, value: It is not a number}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: lbl:It is not a number
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JButton}
+    - {method: equals, name: fieldName, value: load_root}
+    created: 1607945177777
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: '...'}
+    - {name: tagName, value: button}
+    - {name: indexOfType, value: '1'}
+    - {name: component.class.name, value: javax.swing.JButton}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: position, value: '[x=436,y=710]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: '...'}
+    - {name: actionCommand, value: '...'}
+    - {name: type, value: JButton}
+    - {name: buttonText, value: '...'}
+    - {name: fieldName, value: load_root}
+    - {name: accessibleName, value: '...'}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: '...'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: tagName, value: file-chooser}
+    - {method: equals, name: indexOfType, value: '0'}
+    created: 1607945183479
+    generalProperties:
+    - {name: component.class.name, value: javax.swing.JFileChooser}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: enabled, value: 'true'}
+    - {name: tagName, value: file-chooser}
+    - {name: size, value: '[width=500,height=326]'}
+    - {name: instanceOf, value: javax.swing.JFileChooser}
+    - {name: type, value: JFileChooser}
+    - {name: indexOfType, value: '0'}
+    modified: 0
+    name: file-chooser_0
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JTextField}
+    - {method: equals, name: fieldName, value: rootDir}
+    created: 1607945192744
+    generalProperties:
+    - {name: tagName, value: text-field}
+    - {name: indexOfType, value: '1'}
+    - {name: precedingLabel, value: Web root directory}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: component.class.name, value: javax.swing.JTextField}
+    - {name: instanceOf, value: javax.swing.JTextField}
+    - {name: position, value: '[x=291,y=710]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: 'C:\Users\unu\vvs\WebServer\pages'}
+    - {name: type, value: JTextField}
+    - {name: fieldName, value: rootDir}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: Web root directory
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: accessibleName, value: Out of range}
+    - {method: equals, name: type, value: JLabel}
+    created: 1607945328926
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: Out of range}
+    - {name: tagName, value: label}
+    - {name: labelText, value: 'lbl:Out of range'}
+    - {name: indexOfType, value: '7'}
+    - {name: component.class.name, value: javax.swing.JLabel}
+    - {name: instanceOf, value: javax.swing.JLabel}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=305,y=157]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: Out of range}
+    - {name: type, value: JLabel}
+    - {name: accessibleName, value: Out of range}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: lbl:Out of range
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JButton}
+    - {method: equals, name: fieldName, value: load_maintenance}
+    created: 1607945448873
+    generalProperties:
+    - {name: accessibleContext.accessibleName, value: '...'}
+    - {name: tagName, value: button}
+    - {name: indexOfType, value: '2'}
+    - {name: component.class.name, value: javax.swing.JButton}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: position, value: '[x=305,y=263]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: '...'}
+    - {name: actionCommand, value: '...'}
+    - {name: type, value: JButton}
+    - {name: buttonText, value: '...'}
+    - {name: fieldName, value: load_maintenance}
+    - {name: accessibleName, value: '...'}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: '..._2'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JTextField}
+    - {method: equals, name: fieldName, value: maintenanceDir}
+    created: 1607945458877
+    generalProperties:
+    - {name: tagName, value: text-field}
+    - {name: indexOfType, value: '2'}
+    - {name: precedingLabel, value: Maintenance directory}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: component.class.name, value: javax.swing.JTextField}
+    - {name: instanceOf, value: javax.swing.JTextField}
+    - {name: position, value: '[x=160,y=263]'}
+    - {name: enabled, value: 'true'}
+    - {name: cText, value: 'C:\Users\unu\vvs\WebServer\pages'}
+    - {name: type, value: JTextField}
+    - {name: fieldName, value: maintenanceDir}
+    - {name: size, value: '[width=135,height=23]'}
+    modified: 0
+    name: Maintenance directory
+    used: true

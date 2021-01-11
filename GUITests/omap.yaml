@@ -1,0 +1,23 @@
+- !!net.sourceforge.marathon.objectmap.OMapContainer
+    containerGeneralProperties:
+    - {name: name, value: frame0}
+    - {name: accessibleContext.accessibleName, value: 'VVS WebServer - [Stopped]'}
+    - {name: tagName, value: frame}
+    - {name: indexOfType, value: '0'}
+    - {name: component.class.name, value: gui.GUI}
+    - {name: instanceOf, value: javax.swing.JFrame}
+    - {name: internalFrameIndex2, value: '-1'}
+    - {name: position, value: '[x=0,y=0]'}
+    - {name: enabled, value: 'true'}
+    - {name: type, value: gui.GUI}
+    - {name: oMapClassName, value: gui.GUI}
+    - {name: title, value: 'VVS WebServer - [Stopped]'}
+    - {name: accessibleName, value: 'VVS WebServer - [Stopped]'}
+    - {name: size, value: '[width=600,height=300]'}
+    containerRecognitionProperties:
+    - {method: equals, name: oMapClassName, value: gui.GUI}
+    containerTitles: ['VVS WebServer - [Stopped]', 'VVS WebServer - [Running]', 'VVS
+            WebServer - [Maintenance]']
+    created: 1607944849831
+    fileName: VVS WebServer - [Stopped]_5111198860955390128.yaml
+    modified: 1607945506444

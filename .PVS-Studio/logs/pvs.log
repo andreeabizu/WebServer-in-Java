@@ -1,0 +1,20 @@
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:63 - ********************************
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:64 - Native library search paths: 
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - .
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..\..
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..\..\build
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:66 - Additional path: native/win
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:75 - Native library found: C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\native\win\analysis-core.dll
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:76 - ********************************
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:63 - ********************************
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:64 - Native library search paths: 
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - .
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..\..
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:948 - C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\..\..\build
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:66 - Additional path: native/win
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:75 - Native library found: C:\Users\unu\AppData\Roaming\PVS-Studio-Java\7.10.43305\native\win\analysis-core.dll
+2020-12-16 22:59:11 [INFO ] c.p.r.NativeLoader:76 - ********************************

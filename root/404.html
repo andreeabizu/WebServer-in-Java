@@ -1,1 +1,26 @@
-FILE NOT FOUND
+<head>
+    <link href="404.css" rel="stylesheet">
+    <title>404</title>
+    <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="box">
+    <div class="four1">4</div>
+    <i class="far fa-question-circle fa-spin"></i>
+    <div class="four2">4</div>
+    <div class="message">NOT FOUND
+        <p><button onclick="see()">See details</button></p>
+        <p><a href="./index.html">GO HOME</a></p>
+        <p id="details"></p>
+    </div>
+</div>
+
+<script>
+function see() {
+  document.getElementById("details").innerHTML = "The page you are looking for does not exist.";
+
+}
+</script>
+
+</body>

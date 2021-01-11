@@ -1,0 +1,34 @@
+body {
+  background-color: powderblue;
+}
+
+.box {
+  background-color:  grey;
+  margin-top: 100px;
+  margin-left: 500px;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.message {
+   text-align: center;
+   font-family: 'Serif',sans-serif;
+   font-size: 1.6rem;
+   position:absolute;
+   left: 15%;
+   top: 20%;
+   width: 75%;
+}
+form{
+text-align: center;
+   position:absolute;
+   left: 10%;
+   top: 50%;
+   width: 75%;
+}
+
+button{
+background-color: powderblue;
+}
+
